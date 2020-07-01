@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205795AF24AC6F710070DBAE /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205795AE24AC6F710070DBAE /* CampaignViewController.swift */; };
+		205795B124AC718C0070DBAE /* Campaign2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205795B024AC718C0070DBAE /* Campaign2ViewController.swift */; };
+		205795B324AC719F0070DBAE /* Campaign3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205795B224AC719F0070DBAE /* Campaign3ViewController.swift */; };
 		20D871CB24A9885300699763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D871CA24A9885300699763 /* AppDelegate.swift */; };
 		20D871CD24A9885300699763 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D871CC24A9885300699763 /* SceneDelegate.swift */; };
 		20D871CF24A9885300699763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D871CE24A9885300699763 /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		205795AE24AC6F710070DBAE /* CampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
+		205795B024AC718C0070DBAE /* Campaign2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campaign2ViewController.swift; sourceTree = "<group>"; };
+		205795B224AC719F0070DBAE /* Campaign3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campaign3ViewController.swift; sourceTree = "<group>"; };
 		20D871C724A9885300699763 /* BTag-Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BTag-Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D871CA24A9885300699763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20D871CC24A9885300699763 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				20D871D324A9885500699763 /* Assets.xcassets */,
 				20D871D524A9885500699763 /* LaunchScreen.storyboard */,
 				20D871D824A9885500699763 /* Info.plist */,
+				205795AE24AC6F710070DBAE /* CampaignViewController.swift */,
+				205795B024AC718C0070DBAE /* Campaign2ViewController.swift */,
+				205795B224AC719F0070DBAE /* Campaign3ViewController.swift */,
 			);
 			path = "BTag-Share";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205795B324AC719F0070DBAE /* Campaign3ViewController.swift in Sources */,
+				205795B124AC718C0070DBAE /* Campaign2ViewController.swift in Sources */,
 				20D871CF24A9885300699763 /* ViewController.swift in Sources */,
 				20D871CB24A9885300699763 /* AppDelegate.swift in Sources */,
+				205795AF24AC6F710070DBAE /* CampaignViewController.swift in Sources */,
 				20D871CD24A9885300699763 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94HSX365VJ;
 				INFOPLIST_FILE = "BTag-Share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94HSX365VJ;
 				INFOPLIST_FILE = "BTag-Share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

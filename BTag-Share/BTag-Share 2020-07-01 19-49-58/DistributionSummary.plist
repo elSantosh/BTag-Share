@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BTag-Share.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>8CE636835C30F7F0B1980581055031292E149FA3</string>
+				<key>dateExpires</key>
+				<string>01/07/21</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>K88BE7GSL9.macrokiosk.BTag-Share</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>94HSX365VJ</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>K88BE7GSL9.macrokiosk.BTag-Share</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>BTag-Share.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a383b66f-552d-411e-9dcf-0036235b4173</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>94HSX365VJ</string>
+				<key>name</key>
+				<string>Macro Kiosk Berhad</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
