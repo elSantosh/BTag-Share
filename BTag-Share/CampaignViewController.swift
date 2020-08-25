@@ -34,9 +34,9 @@ class CampaignViewController: UIViewController {
 
                // Anything you want to exclude
         
-        activityViewController.activityItemsConfiguration = [
-            UIActivity.ActivityType.message
-            ] as? UIActivityItemsConfigurationReading
+//        activityViewController.activityItemsConfiguration = [
+//            UIActivity.ActivityType.message
+//            ] as? UIActivityItemsConfigurationReading
         
                activityViewController.excludedActivityTypes = [
 //                   UIActivity.ActivityType.postToWeibo,
@@ -51,7 +51,7 @@ class CampaignViewController: UIViewController {
 //                   UIActivity.ActivityType.message
                    
                ]
-
+                activityViewController.isModalInPresentation = true
                self.present(activityViewController, animated: true, completion: nil)
     }
     
